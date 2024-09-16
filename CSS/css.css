@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1d1f21;
+    font-family: Arial,sans-serif;
+    
+}
+
+.titulo {
+    height: 145px;
+    width: auto;
+    background-color: #282a36;
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    font-weight: bold;
+}
+
+.titulo-texto {
+    color: #ffcc00;
+    font-size: 50px;
+    z-index: 1; 
+}
+
+.line {
+    background-color: #ffcc00; 
+    height: 3.5px;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    width: 100%;    
+    z-index: 0; 
+}
+
+.infor{
+    color: white;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    padding: 0.5px;
+
+}
+
+a{
+    color: blue;
+}
+
+
+.icon1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url('../assets/github-6980894_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ddd;
+    display: flex;
+    position: absolute;
+    left: 45%;
+    bottom: -300px;
+}
+
+.icon2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 25%;
+    overflow: hidden;
+    background-image: url('../assets/174857.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -300px;
+    left: 50%;
+}
+    
+
